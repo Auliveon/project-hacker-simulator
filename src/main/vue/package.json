@@ -1,0 +1,40 @@
+{
+  "name": "hacker-simulator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@vueuse/core": "^10.1.2",
+    "axios": "^1.4.0",
+    "latest-version": "^7.0.0",
+    "primeflex": "^3.3.0",
+    "primeicons": "^6.0.1",
+    "primevue": "~3.39.0",
+    "vee-validate": "^4.9.6",
+    "vite-plugin-eslint": "^1.8.1",
+    "vue": "^3.5.11",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.2.0",
+    "yup": "^1.2.0",
+    "yup-locales": "^1.2.12",
+    "pinia": "^2.1.7"
+  },
+ "devDependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "eslint": "^8.39.0",
+    "eslint-plugin-vue": "^9.11.0",
+    "prettier": "^2.8.8",
+    "vite": "^4.3.5"
+  }
+}
