@@ -8,8 +8,8 @@ import java.io.Serializable;
 public abstract class PersistObject<T extends Serializable> {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "default_seq")
-    @SequenceGenerator(name = "default_seq", sequenceName = "default_sequence", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "default_sequence")
+    @SequenceGenerator(name = "default_sequence", sequenceName = "default_sequence", allocationSize = 1)
     private T pid;
 
     public T getPid() {
